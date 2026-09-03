@@ -16,7 +16,7 @@ export default function Nav() {
     <header className="nav">
       <div className="nav-inner">
         <div className="logo">
-          <span className="dot" /> SEPTIAN.SYS
+          <span className="dot" /> S3P.COM
         </div>
         <nav className="links">
           <a href="#audit" className="sfx-link" data-sfx="hover">AUDIT</a>
