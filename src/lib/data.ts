@@ -179,7 +179,37 @@ links: {
   role: "Full-stack Developer",
   links: {
     repo: "https://github.com/septianazriel2010-del/CezRemotesAcces.git",
-    demo: "https://cez-remotes-acces.vercel.app/"
+    demo: "https://cez-remotes-acces.vercel.app"
+  }
+},
+{
+  id: "cyber-lockdown",
+  code: "LOG_005",
+  title: "CYBER//LOCKDOWN",
+  category: "Cybersecurity",
+  status: "COMPLETED",
+  accent: "var(--cyan)",
+  accentA: "rgba(34,211,238,0.14)",
+  glyph: "CL",
+  stack: ["NEXT.JS", "TYPESCRIPT", "TAILWIND CSS", "FRAMER MOTION", "WEB AUDIO API"],
+  summary: "Game puzzle cybersecurity 2D bertema lockdown sistem, dengan 8 tantangan logika fiksi yang harus diselesaikan sebelum waktu habis.",
+  overview: "Game puzzle berbasis browser dengan atmosfer hacker yang tegang namun sepenuhnya menggunakan UI 2D — terminal, security panel, encrypted files, dan access console — dengan elemen 3D hanya sebagai dekorasi visual. Pemain berperan sebagai operator keamanan digital yang harus memverifikasi identitasnya melalui 8 puzzle fiksi (sequence, cipher, memory grid, log audit, drag-sort, hingga tantangan gabungan) sebelum lockdown timer 10 menit mencapai nol.",
+  features: [
+    "8 puzzle acak dengan kesulitan meningkat (Tutorial → Easy → Medium → Hard → Final)",
+    "Lockdown timer 10 menit dengan urgency styling di bawah 60 detik",
+    "Puzzle: access code sequence, signal pattern recall, cipher decoding, system log anomaly, memory grid, drag-to-sort threat sequence, core override 3-stage, dan final lockdown multi-panel",
+    "Seluruh sound effect disintesis langsung via Web Audio API tanpa file audio eksternal",
+    "Progress tracker, security level bar, pause/resume, dan restart",
+    "Local high score (waktu terbaik & akurasi) tersimpan di localStorage",
+    "Error boundary per-puzzle agar bug pada satu puzzle tidak membuat seluruh layar kosong",
+    "Dekorasi rotating core berbasis CSS 3D murni, terpisah total dari logic gameplay",
+    "Fully responsive untuk desktop, tablet, dan mobile tanpa horizontal overflow"
+  ],
+  notes: "Seluruh puzzle bersifat fiksi dan disimulasikan sepenuhnya di sisi klien, tanpa backend, tanpa teknik hacking, scanning, atau exploit nyata. Setiap file telah melalui syntax-check TypeScript sebelum deploy. Pengembangan lanjutan yang masih relevan: global leaderboard berbasis backend, variasi puzzle tambahan, dan audit aksesibilitas (kontras warna & navigasi keyboard) untuk cakupan pengguna yang lebih luas.",
+  role: "Frontend Developer",
+  links: {
+    repo: "https://github.com/septianazriel2010-del/CePuzzle.git",
+    demo: "https://ce-puzzle.vercel.app"
   }
 },
 ];
