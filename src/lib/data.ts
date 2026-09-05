@@ -87,9 +87,9 @@ export const projects: Project[] = [
   category: "Cybersecurity",
   status: "COMPLETED",
 
-  accent: "var(--red)",
-  accentA: "rgba(255,60,60,0.14)",
-  glyph: "SS",
+  accent: "var(--cyan)",
+  accentA: "rgba(0,243,255,0.14)",
+  glyph: "WEB SCANS",
 
   stack: ["NEXT.JS", "TYPESCRIPT", "NODE.JS", "HTTP", "SECURITY HEADERS"],
 
@@ -123,9 +123,9 @@ title: "CIPHERVAULT",
 category: "Cybersecurity",
 status: "COMPLETED",
 
-accent: "var(--purple)",
-accentA: "rgba(168,85,247,0.14)",
-glyph: "CV",
+accent: "var(--cyan)",
+accentA: "rgba(0,243,255,0.14)",
+glyph: "HASHCEZ",
 
 stack: ["REACT", "JAVASCRIPT", "WEB CRYPTO API", "AES", "RSA", "SHA"],
 
@@ -155,12 +155,12 @@ links: {
 {
   id: "cyber-remote-link",
   code: "LOG_004",
-  title: "CYBER REMOTE LINK",
+  title: "CYBER REMOTE CONTROL",
   category: "Cybersecurity",
   status: "COMPLETED",
-  accent: "var(--red)",
-  accentA: "rgba(239,68,68,0.14)",
-  glyph: "CR",
+  accent: "var(--cyan)",
+  accentA: "rgba(0,243,255,0.14)",
+  glyph: "CEZ REMOTE",
   stack: ["NEXT.JS", "TYPESCRIPT", "NODE.JS", "SOCKET.IO", "WEBRTC", "WEB API"],
   summary: "Platform remote device berbasis browser yang memungkinkan perangkat terhubung melalui internet dengan akses kapabilitas berdasarkan consent pengguna.",
   overview: "Platform remote access berbasis browser yang memungkinkan dua perangkat terhubung tanpa instalasi aplikasi. Perangkat Target menentukan kapabilitas seperti kamera, mikrofon, lokasi, motion sensor, dan screen share yang ingin dibagikan, kemudian perangkat Controller terhubung melalui session QR sementara.",
@@ -185,12 +185,12 @@ links: {
 {
   id: "cyber-lockdown",
   code: "LOG_005",
-  title: "CYBER//LOCKDOWN",
+  title: "CEZ PUZZLE",
   category: "Cybersecurity",
   status: "COMPLETED",
   accent: "var(--cyan)",
   accentA: "rgba(34,211,238,0.14)",
-  glyph: "CL",
+  glyph: "PUZZLE",
   stack: ["NEXT.JS", "TYPESCRIPT", "TAILWIND CSS", "FRAMER MOTION", "WEB AUDIO API"],
   summary: "Game puzzle cybersecurity 2D bertema lockdown sistem, dengan 8 tantangan logika fiksi yang harus diselesaikan sebelum waktu habis.",
   overview: "Game puzzle berbasis browser dengan atmosfer hacker yang tegang namun sepenuhnya menggunakan UI 2D — terminal, security panel, encrypted files, dan access console — dengan elemen 3D hanya sebagai dekorasi visual. Pemain berperan sebagai operator keamanan digital yang harus memverifikasi identitasnya melalui 8 puzzle fiksi (sequence, cipher, memory grid, log audit, drag-sort, hingga tantangan gabungan) sebelum lockdown timer 10 menit mencapai nol.",
