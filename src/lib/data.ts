@@ -117,39 +117,69 @@ export const projects: Project[] = [
   }
 },
 {
-  id: "ciphervault",
-  code: "LOG_003",
-  title: "CIPHERVAULT",
+id: "ciphervault",
+code: "LOG_003",
+title: "CIPHERVAULT",
+category: "Cybersecurity",
+status: "COMPLETED",
+
+accent: "var(--purple)",
+accentA: "rgba(168,85,247,0.14)",
+glyph: "CV",
+
+stack: ["REACT", "JAVASCRIPT", "WEB CRYPTO API", "AES", "RSA", "SHA"],
+
+summary: "Studio enkripsi dan dekripsi berbasis web yang memproses data secara lokal di browser menggunakan Web Crypto API.",
+
+overview: "Platform keamanan interaktif untuk melakukan enkripsi, dekripsi, hashing, dan eksperimen kriptografi klasik langsung di browser tanpa perlu mengirim data ke server eksternal.",
+
+features: [
+  "Mode Encrypt dan Decrypt untuk teks maupun file",
+  "AES-GCM, AES-CBC, AES-CTR, dan RSA-OAEP",
+  "Hash satu arah menggunakan SHA-256, SHA-384, dan SHA-512",
+  "Kriptografi edukatif seperti Caesar, Vigenère, XOR, dan Base64",
+  "Pembuatan kunci 256-bit secara langsung di browser",
+  "Security log real-time untuk memantau proses kriptografi",
+  "Pemrosesan data secara lokal menggunakan Web Crypto API"
+],
+
+notes: "Fokus utama proyek ini adalah memberikan pengalaman eksplorasi kriptografi yang interaktif dengan pemrosesan lokal di browser. Tool ini ditujukan untuk edukasi dan penggunaan umum, bukan sebagai sistem keamanan enterprise yang telah diaudit.",
+
+role: "Full-stack Developer",
+
+links: {
+  repo: "https://github.com/septianazriel2010-del/HashCez.git",
+  demo: "https://hash-cez.vercel.app"
+}
+},
+{
+  id: "cyber-remote-link",
+  code: "LOG_004",
+  title: "CYBER REMOTE LINK",
   category: "Cybersecurity",
   status: "COMPLETED",
-
-  accent: "var(--purple)",
-  accentA: "rgba(168,85,247,0.14)",
-  glyph: "CV",
-
-  stack: ["REACT", "JAVASCRIPT", "WEB CRYPTO API", "AES", "RSA", "SHA"],
-
-  summary: "Studio enkripsi dan dekripsi berbasis web yang memproses data secara lokal di browser menggunakan Web Crypto API.",
-
-  overview: "Platform keamanan interaktif untuk melakukan enkripsi, dekripsi, hashing, dan eksperimen kriptografi klasik langsung di browser tanpa perlu mengirim data ke server eksternal.",
-
+  accent: "var(--red)",
+  accentA: "rgba(239,68,68,0.14)",
+  glyph: "CR",
+  stack: ["NEXT.JS", "TYPESCRIPT", "NODE.JS", "SOCKET.IO", "WEBRTC", "WEB API"],
+  summary: "Platform remote device berbasis browser yang memungkinkan perangkat terhubung melalui internet dengan akses kapabilitas berdasarkan consent pengguna.",
+  overview: "Platform remote access berbasis browser yang memungkinkan dua perangkat terhubung tanpa instalasi aplikasi. Perangkat Target menentukan kapabilitas seperti kamera, mikrofon, lokasi, motion sensor, dan screen share yang ingin dibagikan, kemudian perangkat Controller terhubung melalui session QR sementara.",
   features: [
-    "Mode Encrypt dan Decrypt untuk teks maupun file",
-    "AES-GCM, AES-CBC, AES-CTR, dan RSA-OAEP",
-    "Hash satu arah menggunakan SHA-256, SHA-384, dan SHA-512",
-    "Kriptografi edukatif seperti Caesar, Vigenère, XOR, dan Base64",
-    "Pembuatan kunci 256-bit secara langsung di browser",
-    "Security log real-time untuk memantau proses kriptografi",
-    "Pemrosesan data secara lokal menggunakan Web Crypto API"
+    "Pairing perangkat menggunakan QR code sementara",
+    "Akses kamera, mikrofon, lokasi, motion sensor, dan screen share berdasarkan izin pengguna",
+    "WebRTC untuk komunikasi langsung antar perangkat",
+    "Node.js dan Socket.IO sebagai signaling server",
+    "Browser permission native untuk setiap kapabilitas sensitif",
+    "Session QR sekali pakai dan kedaluwarsa setelah 3 menit",
+    "Server menjadi sumber kebenaran untuk kapabilitas yang diberikan",
+    "Target dapat memantau dan memutus koneksi kapan saja",
+    "Dashboard terpisah untuk Target dan Controller"
   ],
-
-  notes: "Fokus utama proyek ini adalah memberikan pengalaman eksplorasi kriptografi yang interaktif dengan pemrosesan lokal di browser. Tool ini ditujukan untuk edukasi dan penggunaan umum, bukan sebagai sistem keamanan enterprise yang telah diaudit.",
-
+  notes: "Proyek ini berfokus pada remote access berbasis consent dengan kontrol penuh di sisi pengguna. Sistem telah melalui type-check, production build, dan smoke test end-to-end. Beberapa pengembangan lanjutan seperti TURN server, multi-stream simultan, dan session store persisten masih diperlukan sebelum production penuh.",
   role: "Full-stack Developer",
-
   links: {
-    repo: "https://github.com/septianazriel2010-del/HashCez.git",
-    demo: "https://hash-cez.vercel.app"
+    repo: "https://github.com/septianazriel2010-del/CezRemotesAcces.git",
+    demo: "https://cez-remotes-acces.vercel.app/"
   }
 },
 ];
